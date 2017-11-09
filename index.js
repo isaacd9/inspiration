@@ -26,7 +26,7 @@ async function get(slug) {
 
 async function run() {
   let data = await get(slug);
-  console.log(chalk.red(wrap(`"${data.quote}" - ${data.url}`)));
+  console.log(chalk.red.bold(wrap(`"${data.quote}" - ${data.url}`)));
 }
 
 run();
