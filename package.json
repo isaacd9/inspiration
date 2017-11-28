@@ -1,6 +1,6 @@
 {
   "name": "inspiration.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get instant Paul Graham quotes. In your terminal!",
   "main": "index.js",
   "scripts": {
